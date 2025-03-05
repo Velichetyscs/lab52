@@ -17,5 +17,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
 - script: cat File1
-    displayname:output GH file contents
+  displayName: output GH file contents
